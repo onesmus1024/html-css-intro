@@ -1,6 +1,6 @@
 /* nav style */
 nav {
-    background-color: #000;
+    background-color: purple;
     height: 50px;
     width: 100%;
     position: fixed;
@@ -15,12 +15,127 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
+
 }
 
 /* nav ul li style */
 nav ul li {
     height: 100%;
+
+}
+
+/* nav ul li a style */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+/* nav ul li a:hover style */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* aside */
+aside {
+    background-color: rgb(224, 114, 224);
+    height: 80%;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* aside ul style */
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+
+    height: 100%;
+    
+}
+
+/* aside ul li style */
+aside ul li {
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+
+/* aside ul li a style */
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+/* aside ul li a:hover style */
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* main style */
+
+.container{
+    
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 80px;
+    top: 50px;
+    right: 0;
+    bottom: 50px
+}
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    color:blue;
+}
+.container p{
+    text-align: center;
+    padding: 0 10%;
+}
+
+/* footer style */
+footer {
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 100;
+}
+
+/* footer p style */
+footer p{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
 }

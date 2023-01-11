@@ -121,6 +121,15 @@ aside ul li a:hover {
     padding: 0 10%;
 }
 
+.images {
+    padding-left: 30%;
+    padding-top: 60px;
+}
+
+img {
+    margin-left: 5%;
+}
+
 /* footer style */
 footer {
     background-color: gray;

@@ -49,15 +49,14 @@ nav ul li a:hover {
 
 /* aside */
 aside {
-    background-color: rgb(224, 114, 224);
+    background-color: rgb(134, 72, 134);
     height: 80%;
-    width: 100px;
+    width: 110px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
     margin-top: 50px;
-    margin-bottom: 50px;
 
 }
 
@@ -68,8 +67,6 @@ aside ul {
     padding: 0;
     display: flex;
     flex-direction: column;
-    
-
     height: 100%;
     
 }
@@ -78,6 +75,7 @@ aside ul {
 aside ul li {
     border: 1px solid #fff;
     width: 100%;
+    padding-top: 5px;
 }
 
 

@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,9 +7,13 @@
     <link rel="stylesheet" href="main.css">
     <title>HTML CSS Introduction </title>
 </head>
+
 <body>
     <!-- nav bar -->
     <nav>
+        <div class="menu">
+            <img src="assets/icon-menu.svg" alt="menu open icon" class="menu-img">
+        </div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -18,7 +23,7 @@
         </ul>
     </nav>
     <!-- side bar -->
-    <aside>
+    <aside class="hide">
         <ul>
             <li><a href="#">html</a></li>
             <li><a href="#">css</a></li>
@@ -28,37 +33,33 @@
             <li><a href="#">docker</a></li>
             <li><a href="#">kubernetes</a></li>
             <li><a href="#">aws</a></li>
-            
+
         </ul>
     </aside>
     <!-- main content -->
     <div class="container">
-        <h1>Introduction to html,css and git</h1>
-        <p>
-            In this section we will be learning the building blocks of making basic web pages: HTML and CSS. We will also focus on using the command line and Git to create a daily workflow for our coding projects.
-        </p>
-        <div class="images">
-            <a target="_blank" href="https://www.freecodecamp.org/news/tag/html/">
-                <img src="/assets/html.png" alt="html" width="150px">
-            </a>
+        <!-- create card to display reviews with image, name, job  -->
 
-            <a target="_blank" href="https://www.freecodecamp.org/news/tag/css/">
-                <img src="/assets/css.png" alt="html" width="110px">
-            </a>
+        <div class="card">
+            <div class="img">
+                <img src="assets/git.png" alt="image of victor" width="100" height="100" border-radius="10px"
+                    id="profile-image">
+            </div>
+            <div class="content">
+                <h3 id="name"> Victor Crest <span>26</span></h3>
+                <p id="job">London</p>
+                <p id="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            </div>
 
-            <a target="_blank" href="https://www.freecodecamp.org/news/git-and-github-for-beginners/">
-                <img src="/assets/git.png" alt="html" width="150px">
-            </a>
-
+            <div class="dot">
+                ...
+            </div>
         </div>
-
-
-    </div>
-
-    <!-- footer -->
-    <footer>
-        <p>Copy right &copy; 2022</p>
-    </footer>
-
+        <!-- footer -->
+        <footer>
+            <p>Copy right &copy; 2022</p>
+        </footer>
+        <script src="main.js"></script>
 </body>
+
 </html>
